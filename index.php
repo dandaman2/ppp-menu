@@ -1,13 +1,9 @@
 <?php
 
 $dataPoints = array(
-    array("label"=> "Food + Drinks", "y"=> 590),
-    array("label"=> "Activities and Entertainments", "y"=> 261),
-    array("label"=> "Health and Fitness", "y"=> 158),
-    array("label"=> "Shopping & Misc", "y"=> 72),
-    array("label"=> "Transportation", "y"=> 191),
-    array("label"=> "Rent", "y"=> 573),
-    array("label"=> "Travel Insurance", "y"=> 126)
+    array("label"=> "Indica", "y"=> 8),
+    array("label"=> "Sativa", "y"=> 8),
+    array("label"=> "50-50 Hybrid", "y"=> 2)
 );
 
 ?>
@@ -22,10 +18,10 @@ $dataPoints = array(
                 animationEnabled: true,
                 exportEnabled: true,
                 title:{
-                    text: "Average Expense Per Day  in Thai Baht"
+                    text: "Overall Strain Ratios"
                 },
                 subtitles: [{
-                    text: "Currency Used: Thai Baht (฿)"
+                    text: "Informatyion is Cumulative, and independant of current stock"
                 }],
                 data: [{
                     type: "pie",
@@ -33,7 +29,7 @@ $dataPoints = array(
                     legendText: "{label}",
                     indexLabelFontSize: 16,
                     indexLabel: "{label} - #percent%",
-                    yValueFormatString: "฿#,##0",
+                    yValueFormatString: "#,##0",
                     dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
                 }]
             });
