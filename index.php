@@ -45,21 +45,23 @@ $dataPoints = array(
 <body>
 <div class = "ultRow">
     <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest fo this shit</h2>
-    <div align="center" class ="adsenseLeft">
+    <div align="center" class ="leftbanner">
         <a href="http://www.google.com">
             <img src="bgsmoke.jpg"
             />
         </a>
     </div>
 
-    <div align="center" class ="adsenseRight">
+    <div align = "center" id="chartContainer" style="height: 370px; width: 100%;"></div>
+
+    <div align="center" class ="rightbanner">
         <a href="http://www.google.com">
             <img src="bgsmoke.jpg"
             />
         </a>
     </div>
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
 </div>
 <div id="bbCont" style="height: 200px; width: 100%;"></div>
 </body>

@@ -1,9 +1,12 @@
-.adsenseLeft,
-.adsenseRight {
-    float:left;
-    width:125px; height:125px;
+
+.rightbanner {
+    float:right;
+    width:125px; height:200px;
     padding: 0;
 }
-.adsenseRight {
-    float:right;
+.leftbanner{
+    float:left;
+    width:125px; height:200px;
+    padding: 0;
 }
+
