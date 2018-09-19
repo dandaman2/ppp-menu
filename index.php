@@ -44,18 +44,17 @@ $dataPoints = array(
     </script>
 </head>
 <body>
-<div class = "ultRow">
     <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest of this shit</h2>
-    <div align="center" class ="leftbanner">
-        <a href="http://www.google.com">
+    <div class ="leftbanner">
+    <a href="http://www.google.com">
             <img src="bgsmoke.jpg"
             />
         </a>
     </div>
 
-    <div align = "center" id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
 
-    <div align="center" class ="rightbanner">
+    <div class ="rightbanner">
         <a href="http://www.google.com">
             <img src="bgsmoke.jpg"
             />
@@ -63,7 +62,7 @@ $dataPoints = array(
     </div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
-</div>
+
 <div id="bbCont" style="height: 200px; width: 100%;"></div>
 </body>
 </html>
