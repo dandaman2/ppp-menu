@@ -1,12 +1,22 @@
 
 .rightbanner {
-    float:right;
-    width:125px; height:200px;
-    padding: 0;
+    width:125px; height:100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
 }
 .leftbanner{
-    float:left;
-    width:125px; height:200px;
-    padding: 0;
+    width:125px; height:100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
 }
 
+@media screen and (max-height: 450px) {
+    .rightbanner {padding-top: 15px;}
+    .leftbanner {padding-top: 15px;}
+}

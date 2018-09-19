@@ -14,6 +14,7 @@ $dataPoints = array(
 <!DOCTYPE HTML>
 <html>
 <head>
+    <link rel="stylesheet" href="menuformat.css">
     <script>
         window.onload = function () {
 
@@ -44,7 +45,7 @@ $dataPoints = array(
 </head>
 <body>
 <div class = "ultRow">
-    <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest fo this shit</h2>
+    <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest of this shit</h2>
     <div align="center" class ="leftbanner">
         <a href="http://www.google.com">
             <img src="bgsmoke.jpg"
