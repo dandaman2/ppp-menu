@@ -43,23 +43,24 @@ $dataPoints = array(
     </script>
 </head>
 <body>
-<div id="adsenseLeft">
-    <a href="http://www.google.com">
-        <img alt="Premium WordPress Themes - AppThemes"
-             src="bgsmoke.jpg"
-        />
-    </a>
-</div>
+<div class = "ultRow">
+    <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest fo this shit</h2>
+    <div align="center" class ="adsenseLeft">
+        <a href="http://www.google.com">
+            <img src="bgsmoke.jpg"
+            />
+        </a>
+    </div>
 
-<div id="adsenseRight">
-    <a href="http://www.google.com">
-        <img alt="Premium WordPress Themes - AppThemes"
-             src="bgsmoke.jpg"
-        />
-    </a>
+    <div align="center" class ="adsenseRight">
+        <a href="http://www.google.com">
+            <img src="bgsmoke.jpg"
+            />
+        </a>
+    </div>
+    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </div>
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <div id="bbCont" style="height: 200px; width: 100%;"></div>
 </body>
 </html>
