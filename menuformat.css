@@ -1,0 +1,9 @@
+#adsenseLeft,
+#adsenseRight {
+    float:left;
+    width:125px; height:125px;
+    padding: 0;
+}
+#adsenseRight {
+    float:right;
+}
