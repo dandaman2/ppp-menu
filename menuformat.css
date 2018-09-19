@@ -1,4 +1,8 @@
-
+.chartCont{
+    margin-left: 125px;
+    margin-right: 125px;
+    padding: 0 10px;
+}
 .rightbanner {
     width:125px; height:100%;
     position: fixed;

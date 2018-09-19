@@ -46,19 +46,13 @@ $dataPoints = array(
 <body>
     <h2 align = "center"> You've just been jebaited into taking a fat rip! Now enjoy the rest of this shit</h2>
     <div class ="leftbanner">
-    <a href="http://www.google.com">
-            <img src="bgsmoke.jpg"
-            />
-        </a>
+        <img src="bgsmoke.jpg"/>
     </div>
 
-    <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+    <div class="chartCont" id="chartContainer" style="height: 370px; width: 100%;"></div>
 
     <div class ="rightbanner">
-        <a href="http://www.google.com">
-            <img src="bgsmoke.jpg"
-            />
-        </a>
+        <img src="bgsmoke.jpg"/>
     </div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
