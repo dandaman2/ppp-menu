@@ -21,7 +21,7 @@ $dataPoints = array(
                     text: "Overall Strain Ratios"
                 },
                 subtitles: [{
-                    text: "Informatyion is Cumulative, and independant of current stock"
+                    text: "Informatyion is Cumulative, and independent of current stock"
                 }],
                 data: [{
                     type: "pie",
