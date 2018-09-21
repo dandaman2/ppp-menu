@@ -11,33 +11,7 @@ $dataPoints = array(
 <html>
 <head>
     <link rel="stylesheet" href="menuformat.css">
-    <script>
-        window.onload = function () {
 
-            var chart = new CanvasJS.Chart("chartContainer", {
-                animationEnabled: true,
-                exportEnabled: true,
-                title:{
-                    text: "Overall Strain Ratios"
-                },
-                subtitles: [{
-                    text: "Informatyion is Cumulative, and independent of current stock"
-                }],
-                data: [{
-                    type: "pie",
-                    showInLegend: "true",
-                    legendText: "{label}",
-                    indexLabelFontSize: 16,
-                    indexLabel: "{label} - #percent%",
-                    yValueFormatString: "#,##0",
-                    dataPoints: <?php echo json_encode($dataPoints, JSON_NUMERIC_CHECK); ?>
-                }]
-            });
-            chart.render();
-
-        }
-
-    </script>
 </head>
 <body>
     <div class ="leftbanner">
@@ -52,8 +26,6 @@ $dataPoints = array(
     <div class ="rightbanner">
         <img src="bgsmoke.jpg" height = "100%"/>
     </div>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-
 
 <div id="bbCont" style="height: 200px; width: 100%;"></div>
 </body>
