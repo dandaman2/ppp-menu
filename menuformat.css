@@ -11,6 +11,10 @@ body{
     padding: 0 10px;
 }
 
+.mainBody p{
+    text-indent: 50px;
+}
+
 .rightbanner {
     width:200px;
     height:100%;

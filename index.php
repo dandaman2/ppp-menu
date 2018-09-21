@@ -10,7 +10,7 @@ $dataPoints = array(
 <!DOCTYPE HTML>
 <html>
 <head>
-    <link rel="stylesheet" href="menuformat.css">
+    <link rel="stylesheet" href="menuformat.css" type="text/css">
 
 </head>
 <body>
