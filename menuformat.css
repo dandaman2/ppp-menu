@@ -1,11 +1,16 @@
 .mainBody{
+    background-color: black;
     margin-left: 125px;
     margin-right: 125px;
     padding: 0 10px;
 }
 
+.mainBody p{
+    color: white;
+}
+
 .rightbanner {
-    width:125px;
+    width:200px;
     height:100%;
     position: fixed;
     z-index: 1;
@@ -14,7 +19,7 @@
     overflow: hidden;
 }
 .leftbanner{
-    width:125px;
+    width:2000px;
     height:100%;
     position: fixed;
     z-index: 1;
