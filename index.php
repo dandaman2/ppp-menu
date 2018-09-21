@@ -27,7 +27,9 @@ $dataPoints = array(
         <p>While this statement may not be wrong, perhaps we can rip a fat cloud in your mind, and delve into the
         reasoning behind it's widepsread, and increasingly casual use. </p>
         <div><p><?php include('strinfo.txt'); ?></p></div>
-
+        <div>
+            <img src="compchart.jpg" width = "100%"/>
+        </div>
 
 
         <div id="chartContainer" style="height: 370px;"></div>
