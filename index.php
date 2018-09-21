@@ -41,7 +41,7 @@ $dataPoints = array(
 </head>
 <body>
     <div class ="leftbanner">
-        <img src="bgsmoke.jpg"/>
+        <img src="bgsmoke.jpg" height = "100%"/>
     </div>
     <div class = chartCont">
         <h1 align = "center">Welcome to RipAFat.Cloud!!</h1>
@@ -49,7 +49,7 @@ $dataPoints = array(
         <div id="chartContainer" style="height: 370px;"></div>
     </div>
     <div class ="rightbanner">
-        <img src="bgsmoke.jpg"/>
+        <img src="bgsmoke.jpg" height = "100%"/>
     </div>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 
