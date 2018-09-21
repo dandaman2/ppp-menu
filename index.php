@@ -46,9 +46,7 @@ $dataPoints = array(
     <div class = chartCont">
         <h1 align = "center">Welcome to RipAFat.Cloud!!</h1>
         <h2 align = "center"> You've just been jebaited into taking a fat rip!</h2>
-
-        <h3> What is Ripafat.cloud? </h3>
-        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+        <div id="chartContainer" style="height: 370px;"></div>
     </div>
     <div class ="rightbanner">
         <img src="bgsmoke.jpg"/>
