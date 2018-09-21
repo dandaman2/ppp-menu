@@ -4,6 +4,7 @@ body{
 
 .mainBody{
     color: white;
+    font-size: medium;
     background-color: black;
     margin-left: 200px;
     margin-right: 200px;
@@ -18,6 +19,8 @@ body{
     top: 0;
     right: 0;
     overflow: hidden;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 .leftbanner{
     width:200px;
