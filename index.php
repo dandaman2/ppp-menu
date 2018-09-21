@@ -26,7 +26,7 @@ $dataPoints = array(
         <p>Now you may be saying "But I already know that marijuana is Satan's spinach. The Devil's Lettuce!</p>
         <p>While this statement may not be wrong, perhaps we can rip a fat cloud in your mind, and delve into the
         reasoning behind it's widepsread, and increasingly casual use. </p>
-        <div><p><?php include('strinfo.txt'); ?></p></div>
+        <div class = "pformat"><p><?php include('strinfo.txt'); ?></p></div>
         <div>
             <img src="compchart.jpg" width = "100%"/>
             <p><small><i>https://www.crescolabs.com/wp-content/uploads/2016/02/indica-and-sativa-1024x983.jpg </i></small></p>

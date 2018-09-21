@@ -10,8 +10,7 @@ body{
     margin-right: 200px;
     padding: 0 10px;
 }
-
-.mainBody p{
+.pformat{
     text-indent: 50px;
 }
 
