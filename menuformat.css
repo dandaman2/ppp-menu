@@ -1,4 +1,4 @@
-.chartCont{
+.mainBody{
     margin-left: 125px;
     margin-right: 125px;
     padding: 0 10px;
@@ -11,8 +11,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    padding-top: 20px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .leftbanner{
     width:125px;
@@ -21,8 +20,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    padding-top: 20px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 @media screen and (max-height: 450px) {
