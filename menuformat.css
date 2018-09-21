@@ -15,7 +15,7 @@
     overflow-x: hidden;
 }
 .leftbanner{
-    width:500px;
+    width:125px;
     height:100%;
     position: fixed;
     z-index: 1;

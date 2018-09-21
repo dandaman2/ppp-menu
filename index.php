@@ -17,7 +17,7 @@ $dataPoints = array(
     <div class ="leftbanner">
         <img src="bgsmoke.jpg" height = "100%"/>
     </div>
-    <div class = chartCont">
+    <div class = "chartCont">
         <h1 align = "center">Welcome to RipAFat.Cloud!!</h1>
         <h2 align = "center"> You've just been jebaited into taking a fat rip!</h2>
         <h3>What is RipAFat.Cloud?</h3>
