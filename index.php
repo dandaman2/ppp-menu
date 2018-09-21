@@ -29,6 +29,7 @@ $dataPoints = array(
         <div><p><?php include('strinfo.txt'); ?></p></div>
         <div>
             <img src="compchart.jpg" width = "100%"/>
+            <p><small><i>https://www.crescolabs.com/wp-content/uploads/2016/02/indica-and-sativa-1024x983.jpg </i></small></p>
         </div>
 
 
