@@ -23,7 +23,7 @@ $dataPoints = array(
         <h3>What is RipAFat.Cloud?</h3>
         <p>RipAFat.Cloud is currently an iterative development platform meant for educating the masses about
             the greatest plant on God's greenest planet: that dank kush!</p>
-        <p>Now you may be saying "But I already know that marijuana is Satan's spinach. The Devil's Lettuce!
+        <p>Now you may be saying "But I already know that marijuana is Satan's spinach. The Devil's Lettuce!"
             While this statement may not be wrong, perhaps we can rip a fat cloud in your mind, and delve into the
             reasoning behind it's widepsread, and increasingly casual use. </p>
         <div><p class="pformat"><?php include('strinfo.txt'); ?></p></div>
@@ -32,8 +32,13 @@ $dataPoints = array(
             <p align="center"><small><i>https://www.crescolabs.com/wp-content/uploads/2016/02/indica-and-sativa-1024x983.jpg </i></small></p>
         </div>
 
+        <h3>But what makes marijuana do these things?</h3>
+        <div <p class = "pformat"><?php include('cheminfo.txt'); ?></p></div>
+        <div>
+            <img src="WM_BrainImg.png.jpg" width = "100%"/>
+        </div>
+    
 
-        <div id="chartContainer" style="height: 370px;"></div>
     </div>
     <div class ="rightbanner">
         <img src="bgsmoke.jpg" height = "100%"/>
